@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid rebeccapurple;
+    border-radius: 30px;
+    overflow: auto;
+    width: 500px;
+}
+.container img{
+    float: right;
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+.container p{
+    color: rgb(188, 194, 199);
+}
+.div2{
+    border: 2px solid rgb(76, 90, 125);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+    width: 500px;
+}
+
+.p1 , .p2{
+    border-radius: 20px;
+}
+
+.p1{
+    padding: 5px;
+    color:#0d4949;
+    background-color: #737333;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.p2{
+    padding: 5px;
+    color:#737333;
+    background-color:#4c9b9b;
+    clear: right;
+}

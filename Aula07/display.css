@@ -1,0 +1,12 @@
+h1{
+    display: inline;
+}
+h2{
+    display: inline-block;
+}
+h3{
+    display: none;
+}
+h4{
+    display: block;
+}

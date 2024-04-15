@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: #A191D9;
+}
+
+nav>a {
+    text-decoration: none;
+    height: 10%;
+    width: 10%;
+    color: rgb(250, 250, 250);
+    padding-right: 85px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+nav>a:hover {
+    color: #353047;
+}
+
+.oi {
+    padding-right: 30px;
+}
+
+form {
+    padding-top: 88px;
+    text-align: center;
+    font-size: 21px;
+}
+
+input {
+    font-size: 21px;
+}
+
+input:focus {
+    background-color: #A191D9;
+}
+
+a:active {
+    color:blue;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+a:visited{
+    color:#9642c4;
+}

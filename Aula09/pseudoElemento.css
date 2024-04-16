@@ -1,0 +1,11 @@
+/* p::before{
+    content: " Chocolate  ";
+}
+p::after{
+    content: " Bolo";
+    o after coloca o texto depois do que vc escreveu no html e o before, antes.
+} */
+p::first-letter{
+    color: cadetblue;
+    font-size: 1.6em;    
+}

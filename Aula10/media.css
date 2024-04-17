@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+body{
+    background-color: rgb(213, 175, 250);
+}
+p{
+    font-size: 25px;
+}
+
+@media  screen and (min-width: 1060px) {
+    body{
+        background-color: blue;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .p4 , .p3 , .p1{
+        display: none ;
+    }
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: blueviolet;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .p1 , .p2 , .p4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style:oblique;
+
+    }
+    .p4,.p2 ,.p3 {
+        display: none;
+    }
+    .p1{
+        color: brown;
+    }
+}
+

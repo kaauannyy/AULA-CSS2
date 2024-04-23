@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "header header header header"
+    "aside aside main main"
+    "footer footer footer footer"
+    ;
+    place-items: start center;
+    /* place-items substitui o align-items e o justify-items */
+    /* align-content: alinha na horizontal dentro os elementos do  container na div */
+    /* justify-content alinha na vertical 
+    place-content faz esses dois*/
+
+}

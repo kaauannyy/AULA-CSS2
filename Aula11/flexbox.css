@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+   
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: silver;
+    border: 1px solid black;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; trabalha com o cross start, deixa ele em coluna*/
+    /* flex-direction: column-reverse; trabalha com o cross end, ele deixa em coluna so que o ultimo elemento vira o primeiro */
+    /* flex-direction: row; trabalha com o main start, ele deixa na horizontal os item */
+    /* flex-direction: row-reverse; trabalha com o main , ele deixa em coluna na horizontal mais o que era primeiro vira o ultimo */
+    /* flex-direction: row-reverse;
+    direction: rtl; */
+    /* flex-wrap: wrap;
+    overflow: auto; */
+    /* flex-flow:column-reverse nowrap; */
+}
+
+.box{
+    height: 100px;
+    width: 100px; 
+    margin: 5px;
+    border: 1px solid black;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.box1{
+    background-color: aquamarine;
+    order: 3;
+}
+.box2{
+    background-color: blueviolet;
+    order: 2; 
+}
+.box3{
+    background-color: blue;
+}

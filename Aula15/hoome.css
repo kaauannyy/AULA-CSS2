@@ -1,0 +1,9 @@
+
+.nav-link:hover{
+    color: #934343;
+    border-bottom: 1px solid #934343;
+}
+.carousel-item{
+    height: 800px;
+    width: 100px;
+}
